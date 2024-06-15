@@ -1,0 +1,21 @@
+.hero-main{
+    position: relative;
+}
+
+#banner{
+    filter: brightness(0.4);
+}
+
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    bottom: 15%;
+    left: 15%;
+    color: white;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+.hero-text > p{
+    font-size: 18px;
+}

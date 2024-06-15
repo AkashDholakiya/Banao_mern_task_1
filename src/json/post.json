@@ -1,0 +1,41 @@
+[
+    {
+        "person_image" : "/images/person-image/person1.svg",
+        "name" : "Sarthak Kamra",
+        "views" : "1.4k views",
+        "post_image" : "/images/person-post-image/person_1_post.png",
+        "label" : "✍️ Article",
+        "head_text" : "What if famous brands had regular fonts? Meet RegulaBrands!",
+        "text" : "I’ve worked in UX for the better part of a decade. From now on, I plan to rei..."
+    },
+    {
+        "person_image" : "/images/person-image/person2.svg",
+        "name" : "Sarah West",
+        "views" : "1.4k views",
+        "post_image" : "/images/person-post-image/person_2_post.png",
+        "label" : "🔬️ Education",
+        "head_text" : "Tax Benefits for Investment under National Pension Scheme launched by Government",
+        "text" : "I’ve worked in UX for the better part of a decade. From now on, I plan to rei…"
+    },
+    {
+        "person_image" : "/images/person-image/person3.svg",
+        "name" : "Ronal Jones",
+        "views" : "1.4k views",
+        "post_image" : "/images/person-post-image/person_3_post.png",
+        "label" : "🗓️ Meetup",
+        "head_text" : "Finance & Investment Elite Social Mixer @Lujiazui",
+        "date" : "Fri, 12 Oct, 2018",
+        "location" : "Ahmedabad, India",
+        "site" : "Visit Website"
+    },
+    {
+        "person_image" : "/images/person-image/person4.svg",
+        "name" : "Joseph Gray",
+        "views" : "1.4k views",
+        "label" : "💼️ Job",
+        "company" : "Innovaccer Analytics Private Ltd.",
+        "location" : "Noida, India",
+        "head_text" : "Software Developer",
+        "site" : "Apply on Timesjobs"
+    }
+]

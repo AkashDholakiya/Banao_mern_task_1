@@ -1,3 +1,9 @@
+:root{
+  --text-color-search : #5C5C5C;
+  --bs-blue : #495DC6;
+}
+
+
 .App {
   text-align: center;
 }
