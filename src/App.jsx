@@ -12,9 +12,9 @@ function App() {
   console.log(windowSize);
   return (
     <div>
-        <div className='quesried-edit'>
+        {windowSize < 768 && <div className='quesried-edit'>
           <img width={80} src="/images/edit.svg" alt="edit-something" onClick={() => setphoneModal(true)} />
-        </div>
+        </div>}
         {phoneModal && <CustomPhoneModal setphoneModal={setphoneModal}/>}
         {windowSize >= 768 && <Navs />}
         <Hero windowSize={windowSize} />
