@@ -1,0 +1,111 @@
+.btn-close{
+    position: absolute !important;
+    right: -5px !important;
+    top: -40px !important;
+    font-size: 15px !important;
+    background-color: white !important;
+    opacity: 1 !important;
+    border-radius: 50% !important;
+    cursor: pointer;
+}
+
+.btn-close:hover{
+    color: #FFFFFF !important;
+}
+
+.modal-header{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    padding: 15px 10px !important;
+    border-bottom: none !important;
+    background-color: #EFFFF4 !important;
+}
+
+.modal-title{
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    color: #008A45;
+}
+
+#input-search-20{
+    border-right: none !important;
+}
+
+.logsign-control{
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: flex-end !important;
+}
+
+.logsign-control input{
+    border: 1px solid #D9D9DB !important;
+    border-radius: 0px !important;
+    box-shadow: none !important;
+    padding: 10px !important;
+    background-color: #F7F8FA !important;
+}
+
+.logsign-control input:focus{
+    border: 1px solid #D9D9DB !important;
+    box-shadow: none !important;
+}
+
+.st-item{
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+    border: 1px solid #D9D9DB ;
+    border-radius: 2px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.forg-pass{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1024){
+    .modal-header{
+        padding: 15px 10px !important;
+    }
+    .modal-title{
+        font-size: 14px !important;
+    }
+    .logsign-control input{
+        padding: 10px !important;
+    }
+    .st-item{
+        padding: 10px 0px;
+    }
+    .forg-pass{
+        margin-top: 15px;
+    }
+
+}
+
+
+@media screen and (max-width: 768px){
+    .modal-header{
+        padding: 15px 10px !important;
+    }
+    .modal-title{
+        font-size: 14px !important;
+    }
+    .logsign-control input{
+        padding: 10px !important;
+    }
+    .st-item{
+        padding: 10px 0px;
+    }
+    .forg-pass{
+        margin-top: 15px;
+    }
+    
+}

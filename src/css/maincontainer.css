@@ -1,9 +1,25 @@
+/* Ensure images do not overflow their container */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* Additional specific fixes for any known problematic elements */
+.main-handler, .below-flat-list, .post, .labell, .resp-space, .sample-1, .sample-2, .post-site, .post-text {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+  
+
+
 .nav-sub{
     display: flex;
     background-color: #ffffff !important;
     position: sticky;
     top: 58px;
-    z-index: 100;
+    z-index: 10;
 }
 
 .main-handler{
@@ -74,4 +90,129 @@
     outline: none;
     border-radius: 14px;
     padding: 5px 15px;
+    background-color: #EDEEF0;
+}
+
+.leave-group{
+    border: 1px solid #989899;
+    color: #6A6A6B;
+    outline: none;
+    border-radius: 4px;
+    padding: 5px 15px;
+    background-color: white;
+}
+
+.leave-group:hover{
+    border: 1px solid #989899 !important;
+    background-color: white !important;
+    color: #6A6A6B !important;
+}
+
+@media screen and (max-width: 1024px){
+    .nav-sub{
+        top: 58px;
+    }
+    .main-handler{
+        height: 60px;
+    }
+    .flat-list > li{
+        margin-right: 10px;
+    }
+    .post-text{
+        font-size: 14px;
+    }
+    .post-site{
+        height: 30px;
+    }
+    .button-folow{
+        padding: 5px 10px;
+    }
+    .leave-group{
+        padding: 5px 10px;
+    }   
+
+    .head_text{
+        font-size: 14px;
+    }
+    .ipads-recom-h1{
+        font-size: 12px;
+    }
+
+    .ipad-image-above-h1{
+        text-align: justify !important;
+        font-size: 12px !important;
+    }
+
+    .ipad-folow-img{
+        width: 20px;
+        height: 20px;
+    }
+
+    .ipad-folow-p{
+        font-size: 11px !important;
+    }
+
+    .button-folow{
+        padding: 2px 5px;
+        font-size: 10px !important;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .nav-sub{
+        position: relative;
+        top: 0;
+    }
+    .main-handler{
+        border-bottom: none;
+    }
+    .post{
+        box-shadow: 0px 0px 10px 0px #E0E0E0;
+        width: 100%;
+    }
+
+    .flat-list > li{
+        margin-right: 0;
+    }
+
+    .labell{
+        font-size: 12px;
+    }
+
+    .resp-spac{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .sample-1{
+        width: 80%;
+    }
+
+    .sample-2{
+        width: 20%;
+    }
+
+    .head_text{
+        font-size: 14px;
+    }
+
+    .post-text{
+        font-size: 12px;
+    }
+    .logo-img-siz{
+        width: 10px;
+        height: 10px;
+    }
+
+    .person-post-img{
+        width: 30px;
+        height: 30px;
+    }
+
+    .person-name{
+        font-size: 12px;
+    }
 }

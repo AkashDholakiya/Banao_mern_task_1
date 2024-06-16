@@ -1,0 +1,25 @@
+.main-custo-modal{
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    z-index: 1000;
+    bottom: 0;
+    width: 100vw;
+    height: 75vh;
+    background-color: white !important;
+    padding: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.custo-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    padding: 10px;
+}
+.custo-head > img{
+    width: 30px;
+    height: 30px;
+}

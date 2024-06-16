@@ -1,6 +1,7 @@
 .nav-main{
     display: flex;
     background-color: #ffffff !important;
+    border-bottom: 1px solid #E0E0E0;
     position: sticky;
     top: 0;
     z-index: 100;
@@ -15,30 +16,31 @@
 #basic-addon1{
     border-top-left-radius: 21px;
     border-bottom-left-radius: 21px;
-    background-color: white !important;
+    background-color: #F2F2F2 !important;
     text-align: center;
 }
 #input-search{
     border-top-right-radius: 21px;
     border-bottom-right-radius: 21px;
-    border-left: none !important;
+    border: none !important;
     width: 360px;
     font-size: 14px;
     height: 42px;
     color: var(--text-color-search) !important;
+    background-color: #F2F2F2 !important;
     font-family: "IBM Plex Sans", sans-serif;
     font-weight: 500;
 }
 #input-search[type="text"]:focus{
-    border-color: none !important;
+    border: none !important;
     box-shadow: none !important;
 }
 #input-search:focus{
-    border-color: none !important;
+    border: none !important;
     box-shadow: none !important;
 }
 #input-search:focus-visible{
-    border-color: none !important;
+    border: none !important;
     box-shadow: none !important;
 }
 
@@ -55,4 +57,20 @@
 .create-acc span:nth-child(2){
     font-size: 10px;
     margin-left: 4px;
+}
+
+.givemeborder{
+    background-color: #F2F2F2 ;
+}
+
+@media screen and (max-width: 1024px){
+    .navbar-brand img{
+        width: 125px;
+    }
+    #input-search{
+        width: 200px;
+    }
+    .create-acc{
+        font-size: 12px;
+    }
 }
